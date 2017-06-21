@@ -6,5 +6,3 @@ var FaceApiParams: {
     GlassField: string;
     ButtonLable: string;
 };
-var jQuery: any;
-var sforce: { connection: { sessionId: string } };
