@@ -1,0 +1,34 @@
+{
+  "name": "tstes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "webpack --config webpack.config.release.js --optimize-minimize"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "office-ui-fabric-react": "^2.34.2",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-svg-piechart": "^1.2.3"
+  },
+  "devDependencies": {
+    "@types/electron": "^1.4.38",
+    "@types/react": "^15.0.25",
+    "@types/react-dom": "^15.5.0",
+    "awesome-typescript-loader": "^3.1.3",
+    "fs": "0.0.1-security",
+    "fs-extra": "^2.1.2",
+    "glob": "^7.1.1",
+    "jsforce": "^1.7.1",
+    "mkdirp": "^0.5.1",
+    "node-zip": "^1.1.1",
+    "source-map-loader": "^0.2.1",
+    "style-loader": "^0.18.2",
+    "css-loader": "^0.28.4",
+    "typescript": "^2.3.4"
+  }
+}
